@@ -324,7 +324,6 @@
             <form
               action="https://formsubmit.co/7e2ccd1eb0c33318a56b49eac3aed137"
               method="POST"
-              enctype="text/plain"
               class="flex flex-col justify-center h-fit bg-blue-700 p-5 w-[400px] lg:w-[500px] gap-2 shadow-lg shadow-black rounded"
             >
               <div class="w-full flex justify-center items-center">
@@ -353,7 +352,7 @@
               <label for="moblie">Mobile:</label>
               <input
                 type="text"
-                name="moblie"
+                name="mobile"
                 class="border-1 border-gray-300 p-2 rounded"
                 required
               />
@@ -365,6 +364,9 @@
                 class="border-1 border-gray-300 p-2 rounded"
                 required
               />
+
+               <!-- ✅ Add the hidden subject field here -->
+  <input type="hidden" name="_subject" value="New Form Submission from Website">
 
               <button
                 type="submit"
